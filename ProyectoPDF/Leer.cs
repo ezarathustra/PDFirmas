@@ -67,7 +67,7 @@ namespace ProyectoPDF
             {
                 Directory.CreateDirectory(rutaModificados);
             }
-            string NombreArchivo = rutaModificados + @"\" + Path.GetFileName(Ruta);
+            string NombreArchivo = Ruta;
             documento.Save(NombreArchivo);
 
             return "Imagen insertada al documento";
