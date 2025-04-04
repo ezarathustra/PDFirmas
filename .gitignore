@@ -1,0 +1,11 @@
+# Archivos y carpetas generados por Visual Studio
+.vs/
+.vscode/
+bin/
+obj/
+
+# Archivos específicos de usuario
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
